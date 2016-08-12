@@ -9,7 +9,8 @@ num1, num2 = 0, 1;
 def sumar(n1, n2):
 	return n1 + n2
 	
-cadena = str(num1) + " " + str(num2);
+#cadena = str(num1) + " " + str(num2);
+cadena = "Resultado: "
 while sumar(num1, num2) <= detener:
 	num3 = sumar(num1, num2)
 	num1 = num2
